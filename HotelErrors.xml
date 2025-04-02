@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Error 1 -->
+<Hotel>
+	<!-- FROM DIAGRAM -->
+	<Hotel Rating="4.2">
+		<Name>Westin</Name>
+		<Phone>800-937-8461</Phone>
+		<Phone>480-968-8885</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Error 2 + 3-->
+	<Hotel>
+		<Name>Marriott</Name>
+		<Address>
+			<Number>22</Number>
+			<Street>Main St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85001</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Error 5 -->
+	<Hotel Rating="3.9">
+		<Name>Holiday Inn</Name>
+		<Name>Westin</Name>
+		
+		<Phone>480-555-2345</Phone>
+		<Phone>602-555-6789</Phone>
+		<Address NearestAirport="JFK">
+			<Number>33</Number>
+			<Street>Broadway Ave</Street>
+			<City>New York</City>
+			<State>NY</State>
+			<Zip>10007</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Error 4 -->
+	<Hotel Rating="4.3">
+		<Name>Sheraton</Name>
+		<Phone>480-555-3456</Phone>
+		<Address NearestAirport="ORD">
+			<Number>44</Number>
+			<Street>Central Ave</Street>
+			<City>Chicago</City>
+			<State>IL</State>
+			<Zip>60605</Zip>
+		</Hotel>
+
+	<Hotel Rating="4.5">
+		<Name>Hilton</Name>
+		<Phone>480-555-4567</Phone>
+		<Address>
+			<Number>55</Number>
+			<Street>University Dr</Street>
+			<City>Boston</City>
+			<State>MA</State>
+			<Zip>02118</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.1">
+		<Name>Hyatt Regency</Name>
+		<Phone>480-555-5678</Phone>
+		<Phone>602-555-3456</Phone>
+		<Address NearestAirport="ATL">
+			<Number>66</Number>
+			<Street>Desert Rd</Street>
+			<City>Atlanta</City>
+			<State>GA</State>
+			<Zip>30303</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.0">
+		<Name>Renaissance</Name>
+		<Phone>480-555-6789</Phone>
+		<Address NearestAirport="DFW">
+			<Number>77</Number>
+			<Street>Mountain View Rd</Street>
+			<City>Dallas</City>
+			<State>TX</State>
+			<Zip>75201</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="3.8">
+		<Name>Best Western</Name>
+		<Phone>480-555-7890</Phone>
+		<Address>
+			<Number>88</Number>
+			<Street>Desert Springs Dr</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89101</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="3.7">
+		<Name>Comfort Inn</Name>
+		<Phone>480-555-8901</Phone>
+		<Address NearestAirport="SFO">
+			<Number>99</Number>
+			<Street>Sunset Blvd</Street>
+			<City>San Francisco</City>
+			<State>CA</State>
+			<Zip>94102</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.2">
+		<Name>DoubleTree by Hilton</Name>
+		<Phone>480-555-9012</Phone>
+		<Phone>602-555-9012</Phone>
+		<Address NearestAirport="SEA">
+			<Number>101</Number>
+			<Street>Lake View Dr</Street>
+			<City>Seattle</City>
+			<State>WA</State>
+			<Zip>98101</Zip>
+		</Address>
+	</Hotel>
+</Hotel>
