@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Hotels>
 	<!-- FROM DIAGRAM -->
 	<Hotel Rating="4.2">
@@ -14,12 +13,11 @@
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
-	
-	<!-- ADDING NEW INSTANCES -->
-	<Hotel Rating="4.0">
+
+	<Hotel>
 		<Name>Marriott</Name>
 		<Phone>602-555-1234</Phone>
-		<Address>
+		<Address NearestAirport="PHX Intl">
 			<Number>22</Number>
 			<Street>Main St</Street>
 			<City>Phoenix</City>
@@ -27,6 +25,7 @@
 			<Zip>85001</Zip>
 		</Address>
 	</Hotel>
+
 	<Hotel Rating="3.9">
 		<Name>Holiday Inn</Name>
 		<Phone>480-555-2345</Phone>
@@ -39,7 +38,7 @@
 			<Zip>10007</Zip>
 		</Address>
 	</Hotel>
-	
+
 	<Hotel Rating="4.3">
 		<Name>Sheraton</Name>
 		<Phone>480-555-3456</Phone>
@@ -51,10 +50,11 @@
 			<Zip>60605</Zip>
 		</Address>
 	</Hotel>
+
 	<Hotel Rating="4.5">
 		<Name>Hilton</Name>
 		<Phone>480-555-4567</Phone>
-		<Address>
+		<Address NearestAirport="BOS">
 			<Number>55</Number>
 			<Street>University Dr</Street>
 			<City>Boston</City>
@@ -62,6 +62,7 @@
 			<Zip>02118</Zip>
 		</Address>
 	</Hotel>
+
 	<Hotel Rating="4.1">
 		<Name>Hyatt Regency</Name>
 		<Phone>480-555-5678</Phone>
@@ -74,6 +75,7 @@
 			<Zip>30303</Zip>
 		</Address>
 	</Hotel>
+
 	<Hotel Rating="4.0">
 		<Name>Renaissance</Name>
 		<Phone>480-555-6789</Phone>
@@ -85,10 +87,11 @@
 			<Zip>75201</Zip>
 		</Address>
 	</Hotel>
+
 	<Hotel Rating="3.8">
 		<Name>Best Western</Name>
 		<Phone>480-555-7890</Phone>
-		<Address>
+		<Address NearestAirport="LAS">
 			<Number>88</Number>
 			<Street>Desert Springs Dr</Street>
 			<City>Las Vegas</City>
@@ -96,6 +99,7 @@
 			<Zip>89101</Zip>
 		</Address>
 	</Hotel>
+
 	<Hotel Rating="3.7">
 		<Name>Comfort Inn</Name>
 		<Phone>480-555-8901</Phone>
@@ -107,6 +111,7 @@
 			<Zip>94102</Zip>
 		</Address>
 	</Hotel>
+
 	<Hotel Rating="4.2">
 		<Name>DoubleTree by Hilton</Name>
 		<Phone>480-555-9012</Phone>
