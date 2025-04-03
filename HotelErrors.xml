@@ -7,7 +7,7 @@
 		<Name>Westin</Name>
 		<Phone>800-937-8461</Phone>
 		<Phone>480-968-8885</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address NearstAirport="Sky Harbor">
 			<Number>11</Number>
 			<Street>E 7th St</Street>
 			<City>Tempe</City>
@@ -35,7 +35,7 @@
 		
 		<Phone>480-555-2345</Phone>
 		<Phone>602-555-6789</Phone>
-		<Address NearestAirport="JFK">
+		<Address NearstAirport="JFK">
 			<Number>33</Number>
 			<Street>Broadway Ave</Street>
 			<City>New York</City>
@@ -48,7 +48,7 @@
 	<Hotel Rating="4.3">
 		<Name>Sheraton</Name>
 		<Phone>480-555-3456</Phone>
-		<Address NearestAirport="ORD">
+		<Address NearstAirport="ORD">
 			<Number>44</Number>
 			<Street>Central Ave</Street>
 			<City>Chicago</City>
@@ -71,7 +71,7 @@
 		<Name>Hyatt </Name>
 		<Phone>480-555-5678</Phone>
 		<Phone>602-555-3456</Phone>
-		<Address NearestAirport="ATL">
+		<Address NearstAirport="ATL">
 			<Number>66</Number>
 			<Street>Desert Rd</Street>
 			<City>Atlanta</City>
@@ -82,7 +82,7 @@
 	<Hotel Rating="4.0">
 		<Name>Renaissance</Name>
 		<Phone>480-555-6789</Phone>
-		<Address NearestAirport="DFW">
+		<Address NearstAirport="DFW">
 			<Number>77</Number>
 			<Street>Mountain View Rd</Street>
 			<City>Dallas</City>
@@ -104,7 +104,7 @@
 	<Hotel Rating="3.7">
 		<Name>Comfort Inn</Name>
 		<Phone>480-555-8901</Phone>
-		<Address NearestAirport="SFO">
+		<Address NearstAirport="SFO">
 			<Number>99</Number>
 			<Street>Sunset Blvd</Street>
 			<City>San Francisco</City>
@@ -116,7 +116,7 @@
 		<Name>DoubleTree by Hilton</Name>
 		<Phone>480-555-9012</Phone>
 		<Phone>602-555-9012</Phone>
-		<Address NearestAirport="SEA">
+		<Address NearstAirport="SEA">
 			<Number>101</Number>
 			<Street>Lake View Dr</Street>
 			<City>Seattle</City>
