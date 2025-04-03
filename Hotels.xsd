@@ -3,11 +3,11 @@
 	<xsd:element name="Hotels">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="Hotel" maxOccurs="unbounded">
+				<xsd:element name="Hotel" maxOccurs="unbounded" minOccurs="1">
 					<xsd:complexType>
 						<xsd:sequence>
 							<xsd:element name="Name" type="xsd:string"/>
-							<xsd:element name="Phone" type="xsd:string" maxOccurs="unbounded"/>
+							<xsd:element name="Phone" type="xsd:string" maxOccurs="unbounded" minOccurs="1"/>
 							<xsd:element name="Address">
 								<xsd:complexType>
 									<xsd:sequence>
